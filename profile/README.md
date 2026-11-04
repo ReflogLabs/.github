@@ -24,7 +24,7 @@ Most Git tutorials present version control as a personal backup utility. In dist
 1. **Semantic Atomicity**: Every commit represents a single logical unit of change with an explicit rationale, not an arbitrary checkpoint.
 2. **Plumbing Comprehension**: Deep understanding of references, object hashing, tree structures, and index states so recovery becomes second nature.
 3. **Operational Truth**: Every practice scenario generates real terminal outputs, real commit hashes, and real merge dynamics.
-4. **Permanent Reference**: Standalone 9-page vector manuals typeset in dual themes (print-ready light and screen-optimized dark) with fillable AcroForm checklists.
+4. **Permanent Reference**: Standalone vector manuals typeset in dual themes (print-ready light and screen-optimized dark) with fillable AcroForm checklists.
 
 ---
 
@@ -39,33 +39,25 @@ Most Git tutorials present version control as a personal backup utility. In dist
 
 ---
 
-## Platform Overview
-
-<div align="center">
-  <img src="assets/platform-overview.png" alt="Reflog Labs Curriculum Platform" width="100%">
-</div>
-
-<br>
-
-<div align="center">
-  <img src="assets/curriculum-matrix.png" alt="Curriculum Progression Matrix" width="100%">
-</div>
-
-<br>
-
----
-
 ## Typesetting and Design System
 
-Reflog Labs manuals are engineered using a bespoke Python and ReportLab typography engine:
+Reflog Labs manuals and guides are engineered using a bespoke Python and ReportLab typography engine:
 
 - **Strict Grid System**: 12-column responsive layout built to fit ISO 216 paper geometry.
 - **Accessible Contrast**: All color tokens meet or exceed WCAG AAA requirements (contrast ratio >= 7.0:1 for body copy).
 - **Embedded Typography**: Open Font License typography (Unbounded for geometric display titles, DM Mono for monospace code blocks).
 - **Interactive Verification**: Integrated AcroForm widgets allow offline annotation and progress tracking in standard PDF readers.
+- **Dual-Theme Optimization**: Screen-optimized dark theme with custom green accents and print-ready light theme with blue brand tokens.
+
+<br>
 
 <div align="center">
-  <img src="assets/design-system-spec-1.png" alt="Reflog Labs Typography and Component Specifications" width="100%">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/spec-dark.png">
+  <img src="assets/spec-light.png" alt="Reflog Labs Typography and Component Specifications" width="100%">
+</picture>
+
 </div>
 
 <br>
