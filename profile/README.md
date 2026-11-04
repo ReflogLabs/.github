@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/org-banner-dark.svg">
-  <img src="assets/org-banner-light.svg" alt="Reflog Labs: Write history worth reading" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/org-banner-dark.png">
+  <img src="assets/org-banner-light.png" alt="Reflog Labs: Write history worth reading" width="100%">
 </picture>
 
 <br><br>
@@ -32,14 +32,30 @@ Most Git tutorials present version control as a personal backup utility. In dist
 
 | Module | Status | Topic Focus | Repository |
 |---|---|---|---|
-| **01 / First Commit** | **Active** | Core config, history inspection, pickaxe search (`git log -S`), `.gitignore` defense, and atomic 50/72 staging. | [lab-01-first-commit](https://github.com/ReflogLabs/lab-01-first-commit) |
-| **02 / Branching Mechanics** | *In Development* | Graph topology, pointer kinematics, fast-forward versus three-way merge commits, and remote tracking branches. | Coming soon |
-| **03 / History Surgery** | *In Development* | Interactive rebase (`git rebase -i`), squash, reword, drop, and resolving conflicting semantic patches cleanly. | Coming soon |
-| **04 / Forensics and Recovery** | *In Development* | Diagnosing lost commits via `git reflog`, detached HEAD salvage, dangling object recovery, and index repairs. | Coming soon |
+| **01 / First Commit** | **Active** | Core config, history inspection, pickaxe search (`git log -S`), `.gitignore` defense, and atomic 50/72 staging. | [Link](https://github.com/ReflogLabs/lab-01-first-commit) |
+| **02 / Branching Mechanics** | *Planned* | Graph topology, pointer kinematics, fast-forward versus three-way merge commits, and remote tracking branches. | Soon |
+| **03 / History Surgery** | *Planned* | Interactive rebase (`git rebase -i`), squash, reword, drop, and resolving conflicting semantic patches cleanly. | Soon |
+| **04 / Forensics and Recovery** | *Planned* | Diagnosing lost commits via `git reflog`, detached HEAD salvage, dangling object recovery, and index repairs. | Soon |
 
 ---
 
-## Guide Architecture
+## Platform Overview
+
+<div align="center">
+  <img src="assets/platform-overview.png" alt="Reflog Labs Curriculum Platform" width="100%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="assets/curriculum-matrix.png" alt="Curriculum Progression Matrix" width="100%">
+</div>
+
+<br>
+
+---
+
+## Typesetting and Design System
 
 Reflog Labs manuals are engineered using a bespoke Python and ReportLab typography engine:
 
@@ -47,6 +63,12 @@ Reflog Labs manuals are engineered using a bespoke Python and ReportLab typograp
 - **Accessible Contrast**: All color tokens meet or exceed WCAG AAA requirements (contrast ratio >= 7.0:1 for body copy).
 - **Embedded Typography**: Open Font License typography (Unbounded for geometric display titles, DM Mono for monospace code blocks).
 - **Interactive Verification**: Integrated AcroForm widgets allow offline annotation and progress tracking in standard PDF readers.
+
+<div align="center">
+  <img src="assets/design-system-spec-1.png" alt="Reflog Labs Typography and Component Specifications" width="100%">
+</div>
+
+<br>
 
 ---
 
