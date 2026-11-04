@@ -1,8 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/org-banner-dark.png">
-  <img src="assets/org-banner-light.png" alt="Reflog Labs: Write history worth reading" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/org-banner-dark.png#gh-dark-mode-only">
+  <source media="(prefers-color-scheme: light)" srcset="assets/org-banner-light.png#gh-light-mode-only">
+  <img src="assets/org-banner-light.png#gh-light-mode-only" alt="Reflog Labs: Write history worth reading" width="100%">
 </picture>
 
 <br><br>
@@ -54,8 +55,9 @@ Reflog Labs manuals and guides are engineered using a bespoke Python and ReportL
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/spec-dark.png">
-  <img src="assets/spec-light.png" alt="Reflog Labs Typography and Component Specifications" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/spec-dark.png#gh-dark-mode-only">
+  <source media="(prefers-color-scheme: light)" srcset="assets/spec-light.png#gh-light-mode-only">
+  <img src="assets/spec-light.png#gh-light-mode-only" alt="Reflog Labs Typography and Component Specifications" width="100%">
 </picture>
 
 </div>
